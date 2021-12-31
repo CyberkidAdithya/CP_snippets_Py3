@@ -8,6 +8,7 @@ def findpow_iter(a, b, m = int(1e9 + 7)):    #iterative
         a = a * a % m
         b >>= 1
     return res % m
+# findpow_iter(x, y, modd)
 
 def findpow_recur(a, b, m = int(1e9 + 7)):    #recursive
     if a == 0:
@@ -19,3 +20,4 @@ def findpow_recur(a, b, m = int(1e9 + 7)):    #recursive
         return tmp * tmp % m
     else:
         return ((tmp * tmp % m) * a) % m
+# findpow_recur(x, y, modd)
