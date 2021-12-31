@@ -1,4 +1,6 @@
 def findpow_iter(a, b, m = int(1e9 + 7)):    #iterative
+    if a == 0:
+        return 0
     res = 1 
     while b > 0:
         if b & 1:
