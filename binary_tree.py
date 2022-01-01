@@ -45,4 +45,7 @@ arr.left.right.left = Node(2)
 obj = Solution()
 ans = obj.inorderTraversal(arr)
 print(ans)
-# [1, 3, 2, 4, 5, 6, 7, 8]
+'''
+Output:
+[1, 3, 2, 4, 5, 6, 7, 8]
+'''
